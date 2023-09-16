@@ -106,4 +106,9 @@ button:hover {
 
 #equals {
   width: 160px;
+  background-color: #f99c14;
+}
+
+.operater {
+  background-color: #f99d147a;
 }

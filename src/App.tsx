@@ -19,10 +19,18 @@ function App() {
           >
             C
           </button>
-          <button id="percentage" onClick={() => handlePress('percentage')}>
+          <button
+            className="operater"
+            id="percentage"
+            onClick={() => handlePress('percentage')}
+          >
             %
           </button>
-          <button id="divide" onClick={() => handlePress('/')}>
+          <button
+            className="operater"
+            id="divide"
+            onClick={() => handlePress('/')}
+          >
             /
           </button>
           <button id="seven" onClick={() => handlePress('7')}>
@@ -34,7 +42,11 @@ function App() {
           <button id="nine" onClick={() => handlePress('9')}>
             9
           </button>
-          <button id="multiply" onClick={() => handlePress('*')}>
+          <button
+            className="operater"
+            id="multiply"
+            onClick={() => handlePress('*')}
+          >
             *
           </button>
           <button id="four" onClick={() => handlePress('4')}>
@@ -46,7 +58,11 @@ function App() {
           <button id="six" onClick={() => handlePress('6')}>
             6
           </button>
-          <button id="subtract" onClick={() => handlePress('-')}>
+          <button
+            className="operater"
+            id="subtract"
+            onClick={() => handlePress('-')}
+          >
             -
           </button>
           <button id="one" onClick={() => handlePress('1')}>
@@ -58,13 +74,21 @@ function App() {
           <button id="three" onClick={() => handlePress('3')}>
             3
           </button>
-          <button id="add" onClick={() => handlePress('+')}>
+          <button
+            className="operater"
+            id="add"
+            onClick={() => handlePress('+')}
+          >
             +
           </button>
           <button id="zero" onClick={() => handlePress('0')}>
             0
           </button>
-          <button id="decimal" onClick={() => handlePress('.')}>
+          <button
+            className="operater"
+            id="decimal"
+            onClick={() => handlePress('.')}
+          >
             .
           </button>
           <button id="equals" onClick={() => handlePress('=')}>
